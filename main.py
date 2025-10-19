@@ -5,13 +5,13 @@ from diaries.taumaDiary import taumaDiary
 from diaries.NishidaDiary import NishidaDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), HabaDiary()] 
-# ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), IshimaruDiary()]
-# ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), taumaDiary()]
-# ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), NishidaDiary()]
+diaries = [
+    DiarySample(),
+    HabaDiary(),
+    IshimaruDiary(),
+    taumaDiary(),
+    NishidaDiary(),
+]
 
 for d in diaries:
     print("---------------------------------")
